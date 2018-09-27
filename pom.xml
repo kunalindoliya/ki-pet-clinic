@@ -44,9 +44,7 @@
         </plugins>
     </build>
     <scm>
-
         <developerConnection>scm:git:https://github.com/kunalindoliya/ki-pet-clinic.git</developerConnection>
-
       <tag>HEAD</tag>
   </scm>
 </project>
