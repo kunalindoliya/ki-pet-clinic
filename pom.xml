@@ -42,5 +42,9 @@
             </plugin>
         </plugins>
     </build>
-
+        <scm>
+            <connection>scm:git://github.com:kunalindoliya/ki-pet-clinic.git</connection>
+            <developerConnection>scm:git:git@github.com:kunalindoliya/ki-pet-clinic.git</developerConnection>
+            <url>https://github.com/kunalindoliya/ki-pet-clinic.git</url>
+        </scm>
 </project>
