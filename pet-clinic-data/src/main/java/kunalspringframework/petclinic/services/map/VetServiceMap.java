@@ -4,11 +4,13 @@ import kunalspringframework.petclinic.model.Specialty;
 import kunalspringframework.petclinic.model.Vet;
 import kunalspringframework.petclinic.services.SpecialtyService;
 import kunalspringframework.petclinic.services.VetService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
+@Profile({"default","map"})
 public class VetServiceMap extends AbstractMapService<Vet,Long> implements VetService{
     public VetServiceMap(SpecialtyService specialtyService) {
         this.specialtyService = specialtyService;
